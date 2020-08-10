@@ -10,9 +10,8 @@
 	"license": "MIT",
 	"scripts": {
 		"dev": "next dev",
-		"build": "next build && next export",
-		"start": "next start",
-		"predeploy": "yarn build"
+		"build": "next build",
+		"start": "next start"
 	},
 	"dependencies": {
 		"next": "9.4.4",
