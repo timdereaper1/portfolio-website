@@ -1,0 +1,33 @@
+{
+	"name": "portfolio-website",
+	"version": "1.0.0",
+	"homepage": "https://github.com/timdereaper1/portfolio-website",
+	"author": {
+		"name": "Amo Timothy Kofi",
+		"email": "timdereaper1@gmail.com",
+		"url": "https://timdereaper1.github.io"
+	},
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build && next export",
+		"start": "next start",
+		"predeploy": "yarn build"
+	},
+	"dependencies": {
+		"next": "9.4.4",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-jss": "10.3.0"
+	},
+	"devDependencies": {
+		"@babel/plugin-proposal-class-properties": "7.10.4",
+		"@babel/plugin-proposal-decorators": "7.10.5",
+		"@babel/plugin-transform-runtime": "7.11.0",
+		"@types/node": "14.0.27",
+		"@types/react": "16.9.45",
+		"@types/react-dom": "16.9.8",
+		"gh-pages": "3.1.0",
+		"typescript": "3.9.7"
+	}
+}
